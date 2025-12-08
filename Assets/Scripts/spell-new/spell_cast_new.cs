@@ -80,6 +80,7 @@ public class spell_cast_new : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("Charged");
             // --- LOGIKA AUDIO: SPRAWDZENIE STANU ODTWARZANIA ---
             audioSystem.SpellSound.getPlaybackState(out audioPbState);
             
