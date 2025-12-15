@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using FMOD.Studio; // Wymagane dla PLAYBACK_STATE
 using FMODUnity;   // Wymagane dla RuntimeManager
 using System.Collections;

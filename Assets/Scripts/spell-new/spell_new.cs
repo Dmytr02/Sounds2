@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using FMODUnity;
 
@@ -55,32 +55,30 @@ public class spell_new : MonoBehaviour
     {
         Debug.Log("Spell hit the ground.");
 
-        if (hasHitGround) return;
-        
-        // ZMIANA 3: Sprawdzamy Layer obiektu kolidującego
-        // collision.gameObject.layer zwraca numer warstwy
-        if (collision.gameObject.layer == environmentLayer)
+    if (hasHitGround) return;
+
+    if (collision.collider.CompareTag(groundTag))
+    {
+        hasHitGround = true;
+
+        ParticleSystem[] allParticleSystems = GetComponentsInChildren<ParticleSystem>();
+
+        foreach (ParticleSystem ps in allParticleSystems)
         {
-            hasHitGround = true;
+            ps.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+        }
 
-            ParticleSystem[] allParticleSystems = GetComponentsInChildren<ParticleSystem>();
+        if (groundChild != null)
+            groundChild.SetActive(true);
 
-            foreach (ParticleSystem ps in allParticleSystems)
-            {
-                ps.Stop(true, ParticleSystemStopBehavior.StopEmitting);
-            }
-
-            if (groundChild != null)
-                groundChild.SetActive(true);
-
-            if (rb != null)
-            {
-                rb.useGravity = false;
-                rb.velocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
-            }
-            
-            if (audioSystem != null)
+        if (rb != null)
+        {
+            rb.useGravity = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
+        
+        if (audioSystem != null)
             {
                 audioSystem.SpellImpactSound(transform.position);
             }
@@ -102,22 +100,22 @@ public class spell_new : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / colorChangeDuration;
 
-            foreach (ParticleSystem ps in particleSystems)
-            {
-                var mainModule = ps.main;
-                
-                // POBIERZ AKTUALNY KOLOR
-                Color startCol = mainModule.startColor.color;
-                
-                // ZDEFINIUJ KOLOR KOŃCOWY (TEN SAM KOLOR, ALE PRZEZROCZYSTY)
-                Color targetCol = new Color(startCol.r, startCol.g, startCol.b, 0f); // Ostatni parametr (0f) to przezroczystość
+    foreach (ParticleSystem ps in particleSystems)
+    {
+        var mainModule = ps.main;
+        
+        // POBIERZ AKTUALNY KOLOR
+        Color startCol = mainModule.startColor.color;
+        
+        // ZDEFINIUJ KOLOR KOŃCOWY (TEN SAM KOLOR, ALE PRZEZROCZYSTY)
+        Color targetCol = new Color(startCol.r, startCol.g, startCol.b, 0f); // Ostatni parametr (0f) to przezroczystość
 
-                // ZMIANA: Interpoluj do przezroczystości (Alpha = 0)
-                mainModule.startColor = Color.Lerp(startCol, targetCol, t);
-            }
+        // ZMIANA: Interpoluj do przezroczystości (Alpha = 0)
+        mainModule.startColor = Color.Lerp(startCol, targetCol, t);
+    }
 
-            yield return null;
-        }
+    yield return null;
+}
         Destroy(gameObject, destroyDelay);
     }
 }
