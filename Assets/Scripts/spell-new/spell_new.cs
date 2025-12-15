@@ -23,6 +23,8 @@ public class spell_new : MonoBehaviour
 
     private ParticleSystem chargePs;
     private ParticleSystem chargedPs;
+    
+    string groundTag = "obstacle";
 
     void Start()
     {

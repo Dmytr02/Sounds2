@@ -901,6 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
 --- !u!114 &237163392
 MonoBehaviour:
@@ -1911,12 +1912,12 @@ MonoBehaviour:
       Data4: 675919702
     Path: event:/Music_2
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -2467,12 +2468,12 @@ MonoBehaviour:
       Data4: -793358619
     Path: event:/Forest ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -2599,6 +2600,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DoorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1001 &511914473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3234,18 +3242,18 @@ MonoBehaviour:
     Path: event:/Footsteps/Land
   spellEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1965044991
+      Data2: 1329734166
+      Data3: -288031562
+      Data4: 587731880
+    Path: event:/Spell
   spellImpactEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1792590976
+      Data2: 1225755050
+      Data3: 1484001666
+      Data4: 2069686241
+    Path: event:/Spell_impact
   insideRoomSnap:
     Guid:
       Data1: 815318414
@@ -3638,12 +3646,12 @@ MonoBehaviour:
       Data4: 145313662
     Path: event:/Music
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -3669,12 +3677,12 @@ MonoBehaviour:
       Data4: 8083909
     Path: event:/Tavern ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -4704,6 +4712,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DoorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!64 &1072624435
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6247,12 +6262,12 @@ MonoBehaviour:
       Data4: 8083909
     Path: event:/Tavern ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
@@ -7523,6 +7538,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DoorsEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!64 &1836824988
 MeshCollider:
   m_ObjectHideFlags: 0
