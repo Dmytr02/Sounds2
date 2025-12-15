@@ -10,7 +10,7 @@ public class AudioOcclusion : MonoBehaviour
     //private EventReference SelectAudio;
     //private EventInstance eventInstance;
     [SerializeField]
-    private StudioEventEmitter eventEmitterMusic;
+    private StudioEventEmitter eventEmitter;
     private EventInstance eventInstance;
     private EventDescription eventDes;
     private StudioListener listener;
@@ -43,7 +43,7 @@ public class AudioOcclusion : MonoBehaviour
         //Audio.getDescription(out AudioDes);
         //Audio.getMinMaxDistance(out MinDistance, out MaxDistance);
 
-        eventInstance = eventEmitterMusic.EventInstance;
+        eventInstance = eventEmitter.EventInstance;
         eventInstance.getDescription(out eventDes);
         eventDes.getMinMaxDistance(out minDistance, out maxDistance);
 
@@ -57,8 +57,8 @@ public class AudioOcclusion : MonoBehaviour
 
     private void FixedUpdate()
     {
-        eventInstance.isVirtual(out audioIsVirtual); // isVirtual oznacza, ¿e dŸwiêk nadal gra, ale gracz go nie s³yszy
-                                                     // w tej linii sprawdzamy czy dŸwiêk jest "wirtualny"
+        eventInstance.isVirtual(out audioIsVirtual); // isVirtual oznacza, ï¿½e dï¿½wiï¿½k nadal gra, ale gracz go nie sï¿½yszy
+                                                     // w tej linii sprawdzamy czy dï¿½wiï¿½k jest "wirtualny"
                                                      // ENG - isVirtual means that the sound is still playing, but the player can't hear it
                                                      // in this line we check if the sound is "virtual"
         eventInstance.getPlaybackState(out pb);      // status odtwarzania: starting, playing, stopping, stopped, sustained

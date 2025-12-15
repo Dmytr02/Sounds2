@@ -873,7 +873,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!114 &237163391
@@ -2557,13 +2557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorsEvent:
-    Guid:
-      Data1: -500695029
-      Data2: 1246085579
-      Data3: 562479799
-      Data4: -377848113
-    Path: event:/Bed
 --- !u!1001 &511914473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3153,11 +3146,11 @@ MonoBehaviour:
   OutsideAmb: {fileID: 497316230}
   doorsEvent_2:
     Guid:
-      Data1: -1605238268
-      Data2: 1178637917
-      Data3: 1876825985
-      Data4: -1375740229
-    Path: event:/Doors_single
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   doorsEvent:
     Guid:
       Data1: -1605238268
@@ -3188,18 +3181,18 @@ MonoBehaviour:
     Path: event:/Footsteps/Land
   spellEvent:
     Guid:
-      Data1: 1965044991
-      Data2: 1329734166
-      Data3: -288031562
-      Data4: 587731880
-    Path: event:/Spell
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   spellImpactEvent:
     Guid:
-      Data1: -1792590976
-      Data2: 1225755050
-      Data3: 1484001666
-      Data4: 2069686241
-    Path: event:/Spell_impact
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   insideRoomSnap:
     Guid:
       Data1: 815318414
@@ -4642,13 +4635,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorsEvent:
-    Guid:
-      Data1: -500695029
-      Data2: 1246085579
-      Data3: 562479799
-      Data4: -377848113
-    Path: event:/Bed
 --- !u!64 &1072624435
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7411,13 +7397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a1e7f444dae7444bbd7d1e18a737af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DoorsEvent:
-    Guid:
-      Data1: -500695029
-      Data2: 1246085579
-      Data3: 562479799
-      Data4: -377848113
-    Path: event:/Bed
 --- !u!64 &1836824988
 MeshCollider:
   m_ObjectHideFlags: 0

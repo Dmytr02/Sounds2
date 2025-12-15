@@ -18,6 +18,7 @@ TagManager:
   - Spell
   - NewSpell
   - obstacle
+  - ground
   layers:
   - Default
   - TransparentFX

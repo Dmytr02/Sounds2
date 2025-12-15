@@ -208,6 +208,9 @@ public class AudioSystem : MonoBehaviour
                 case "Inside_stone":
                     surfaceType = "Stone";
                     break;
+                case "ground":
+                    surfaceType = "Ground";
+                    break;
             }
 
             FootstepsSound = FMODUnity.RuntimeManager.CreateInstance(footstepsEvent);
@@ -235,6 +238,7 @@ public class AudioSystem : MonoBehaviour
                         "Stone" => "Stone",
                         "Wood" => "Wood",
                         "Inside_stone" => "Stone",
+                        "ground" => "Ground",
                         "Bed" => "Bed",
                         _ => "Stone"
                     };
@@ -267,6 +271,7 @@ public class AudioSystem : MonoBehaviour
                         "Stone" => "Stone",
                         "Wood" => "Wood",
                         "Inside_stone" => "Stone",
+                        "ground" => "Ground",
                         "Bed" => "Bed",
                         _ => "Stone"
                     };
