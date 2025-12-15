@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{48e93a01-d3a7-4f60-ade9-1b7e489ac3db}" />
 	<object class="MarkerTrack" id="{d596b3bd-ce2a-4342-9c57-50b0e26c28f5}" />
 	<object class="GroupTrack" id="{0ea9e0fe-9f70-4e62-ae62-db2df4776e33}">
+		<relationship name="modules">
+			<destination>{b301aaf2-6260-4029-b740-b44afb62b13e}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8e5b1aee-bee5-44a5-a17f-955a04821a7d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{62bceb0b-7f58-4c6f-b87d-96a272d971f5}" />
+	<object class="Timeline" id="{62bceb0b-7f58-4c6f-b87d-96a272d971f5}">
+		<relationship name="modules">
+			<destination>{b301aaf2-6260-4029-b740-b44afb62b13e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{e2c6f931-be2c-4ecc-ac94-572d2cc6b75c}">
 		<relationship name="effectChain">
 			<destination>{bf93566e-d902-45b7-8de9-bc1041337635}</destination>
@@ -81,9 +88,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{69e1287f-e6eb-4bfd-9337-fbcaa483f09e}" />
+	<object class="SingleSound" id="{b301aaf2-6260-4029-b740-b44afb62b13e}">
+		<property name="length">
+			<value>1.6413148840655136</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{3b2337c2-2d27-4145-865b-cb388ebcae58}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{8e5b1aee-bee5-44a5-a17f-955a04821a7d}">
 		<property name="volume">
-			<value>-20.5</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -127,6 +142,9 @@
 		</property>
 	</object>
 	<object class="ChorusEffect" id="{b769c9a0-f077-41fe-8a79-888bc7707e20}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="rate">
 			<value>4.4000001</value>
 		</property>
@@ -134,6 +152,10 @@
 			<value>61</value>
 		</property>
 	</object>
-	<object class="SFXReverbEffect" id="{8890e867-d1b2-458c-9d25-95d81a451cf0}" />
+	<object class="SFXReverbEffect" id="{8890e867-d1b2-458c-9d25-95d81a451cf0}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3d0dd929-ca38-48fc-968e-6fdd7678e921}" />
 </objects>
