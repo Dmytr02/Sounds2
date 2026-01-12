@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &-5393999007225239801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SpellReliseCancel/Spell
+  m_EditorClassIdentifier: 
+  Name: Spell
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 859426199
+    data2: 427553726
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Looping
+  - Release
+  - Cancel
+  Exists: 1
 --- !u!114 &-2734709698287737282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +136,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 90000
+--- !u!114 &-1424620915497953409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpellReliseCancel
+  m_EditorClassIdentifier: 
+  Path: event:/SpellReliseCancel
+  Guid:
+    Data1: -179619374
+    Data2: 1235369693
+    Data3: 926833072
+    Data4: 1671394208
+  Banks:
+  - {fileID: 9205605251395809390}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5393999007225239801}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19233
 --- !u!114 &-1377676144051320459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,13 +308,14 @@ MonoBehaviour:
   - {fileID: -1377676144051320459}
   - {fileID: -9076890096383458959}
   - {fileID: 348952530774281795}
+  - {fileID: -1424620915497953409}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9205605251395809390}
   StringsBanks:
   - {fileID: 7658720416086056527}
   cacheVersion: 131857
-  cacheTime: 639013994593269561
+  cacheTime: 639038160087432521
   SerializableEventsDict:
   - key: event:/Doors_single
     index: 0
@@ -291,6 +347,8 @@ MonoBehaviour:
     index: 13
   - key: event:/Spell
     index: 14
+  - key: event:/SpellReliseCancel
+    index: 15
 --- !u!114 &348952530774281795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +376,7 @@ MonoBehaviour:
   - {fileID: 3489795158797496630}
   MinDistance: 1
   MaxDistance: 20
-  Length: 24683
+  Length: 5450
 --- !u!114 &384391867564210671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,10 +635,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639013994593269561
+  lastModified: 639038160087432521
   FileSizes:
   - Name: Desktop
-    Value: 2096
+    Value: 2140
   Exists: 1
 --- !u!114 &7867430098084887129
 MonoBehaviour:
@@ -734,8 +792,8 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639013994593237907
+  lastModified: 639038160087412539
   FileSizes:
   - Name: Desktop
-    Value: 7647328
+    Value: 7647680
   Exists: 1

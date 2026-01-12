@@ -33,6 +33,8 @@ public class AudioSystem : MonoBehaviour
     public EventReference landEvent;
     public FMOD.Studio.EventInstance SpellSound;
     public EventReference spellEvent;
+    public FMOD.Studio.EventInstance SpellReleaseSound;
+    public EventReference spellReleaseEvent;
     public FMOD.Studio.EventInstance SpellImpact;
     public EventReference spellImpactEvent;
 
@@ -298,13 +300,25 @@ public class AudioSystem : MonoBehaviour
     public void SpellRelease()
     {
         SpellSound.setParameterByNameWithLabel("Spell", "Release");
+        SpellSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         SpellSound.release();
+        
+        SpellReleaseSound = RuntimeManager.CreateInstance(spellReleaseEvent);
+        SpellReleaseSound.setParameterByNameWithLabel("Spell", "Release");
+        SpellReleaseSound.start();
+        SpellReleaseSound.release();
     }
 
     public void SpellCancel()
     {
         SpellSound.setParameterByNameWithLabel("Spell", "Cancel");
+        SpellSound.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         SpellSound.release();
+        
+        SpellReleaseSound = RuntimeManager.CreateInstance(spellReleaseEvent);
+        SpellReleaseSound.setParameterByNameWithLabel("Spell", "Cancel");
+        SpellReleaseSound.start();
+        SpellReleaseSound.release();
     }
 
     public void SpellImpactSound(Vector3 position)
