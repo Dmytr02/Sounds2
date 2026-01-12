@@ -8,6 +8,7 @@ public class spell_cast_new : MonoBehaviour
 {
     // --- KONFIGURACJA ZAKLĘCIA (WIZUALNA I FIZYCZNA) ---
     public float chargeTime = 0.5f;
+    public float releaseTime = 0.2f;
     public GameObject spellPrefab;
     public Transform spellSpawnPoint;
     public float spellShootForce = 20f;
@@ -136,7 +137,7 @@ public class spell_cast_new : MonoBehaviour
 
             if (Input.GetMouseButtonUp(0))
             {
-                  CancelSpell();
+                  StartCoroutine(CancelSpell());
                   if (isAudioInitialized) 
                         audioSystem.SpellCancel();
                   
@@ -165,7 +166,7 @@ public class spell_cast_new : MonoBehaviour
             // Dodatkowy warunek do obsługi anulowania przez PPM
             if (Input.GetMouseButtonDown(1))
             {
-                  CancelSpell();
+                  StartCoroutine(CancelSpell());
                   
                   // --- LOGIKA AUDIO: Anulowanie PPM (poprawka logiki) ---
                   if (isAudioInitialized)
@@ -200,7 +201,7 @@ public class spell_cast_new : MonoBehaviour
             if (Input.GetMouseButtonDown(1))
             {
                   // ANULOWANIE 2: Naciśnięcie PPM z naładowanym zaklęciem
-                  CancelSpell();
+                  StartCoroutine(CancelSpell());
                   
                   // --- LOGIKA AUDIO: Anulowanie PPM (poprawka logiki) ---
                   if (isAudioInitialized)
@@ -265,6 +266,23 @@ public class spell_cast_new : MonoBehaviour
                   main.startColor = Color.Lerp(chargeStartColor, chargeEndColor, t);
             }
       }
+    
+      void UpdateCancelingVfx(float t)
+      {
+            if (currentVfxTransform != null)
+                  currentVfxTransform.localScale = Vector3.one * scaleValue * t;
+            
+            if(currentSpellInstance != null) currentSpellInstance.transform.localScale = Vector3.one * scaleValue * t;
+
+            if (currentParticleSystem != null)
+            {
+                  var main = currentParticleSystem.main;
+                  main.startColor = Color.Lerp(chargeStartColor, chargeEndColor, t);
+                  main.startLifetimeMultiplier = t;
+            }
+      }
+    
+    
 
       void SetFullyChargedVfx()
       {
@@ -305,8 +323,15 @@ public class spell_cast_new : MonoBehaviour
             chargedChildInstance = null;
       }
 
-      void CancelSpell()
+      IEnumerator CancelSpell()
       {
+            float t = 0;
+            while (t < 1)
+            {
+                  t += Time.deltaTime*(1/releaseTime);
+                  UpdateCancelingVfx(1-t);
+                  yield return null;
+            }
             if (currentSpellInstance != null)
                   Destroy(currentSpellInstance);
 

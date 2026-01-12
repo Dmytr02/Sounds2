@@ -6,30 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50682de6-9728-4ca5-b2ee-fde8256f17c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sounds2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sounds2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/spell-new/spell_cast_new.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/spell-new/spell_cast_new.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/1E25C958.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/1E25C958.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/35344E04.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/35344E04.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/54CFF20B.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/54CFF20B.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/64CD6DD9.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/64CD6DD9.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8F2F88E7.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/8F2F88E7.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A13CA7C0.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A13CA7C0.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A3E3C898.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A3E3C898.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A4936AA6.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A4936AA6.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A943E411.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/A943E411.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/E1DF99DE.fobj" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/fsbcache/Desktop/E1DF99DE.fobj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3b2337c2-2d27-4145-865b-cb388ebcae58}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3b2337c2-2d27-4145-865b-cb388ebcae58}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{521b1e25-4b33-4757-b3fd-0f90a25a7e3d}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{521b1e25-4b33-4757-b3fd-0f90a25a7e3d}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{6dcb45bb-65ca-4deb-a4c7-3152db9250bb}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{6dcb45bb-65ca-4deb-a4c7-3152db9250bb}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Build/Desktop/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{752034ff-2216-4f42-b6fc-d4eea8130823}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/Metadata/Event/{752034ff-2216-4f42-b6fc-d4eea8130823}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaper/341414__stebbi30000gmailcom__coins-in-a-glass-11.wav.reapeaks" beforeDir="false" afterPath="$PROJECT_DIR$/reaper/341414__stebbi30000gmailcom__coins-in-a-glass-11.wav.reapeaks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaper/42688__zwang__record132.wav.reapeaks" beforeDir="false" afterPath="$PROJECT_DIR$/reaper/42688__zwang__record132.wav.reapeaks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaper/442872__qubodup__fire-magic.wav.reapeaks" beforeDir="false" afterPath="$PROJECT_DIR$/reaper/442872__qubodup__fire-magic.wav.reapeaks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_BlackSmoke 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_BlackSmoke 1.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +25,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe" />
