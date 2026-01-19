@@ -6,8 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="50682de6-9728-4ca5-b2ee-fde8256f17c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sounds2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sounds2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FantasyEnvironments/Environments/Scenes/DemoScene_edit.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/spell-new/spell_cast_new.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/spell-new/spell_cast_new.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_BlackSmoke 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_BlackSmoke 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{10b470a5-27a0-46b8-957d-7e014e07eba1}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{10b470a5-27a0-46b8-957d-7e014e07eba1}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{1368957c-d4ac-4701-9d36-f0878467fdcc}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{1368957c-d4ac-4701-9d36-f0878467fdcc}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{23bfeffb-7725-42ff-b18b-3805d33bcea3}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{23bfeffb-7725-42ff-b18b-3805d33bcea3}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{25c8d0b5-6672-4889-b8cf-58d0288334e6}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{25c8d0b5-6672-4889-b8cf-58d0288334e6}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{32ba241a-39d4-448a-b062-80eedc68a9de}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{32ba241a-39d4-448a-b062-80eedc68a9de}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{375c6030-0638-42df-9c36-e209b1abe5d6}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{375c6030-0638-42df-9c36-e209b1abe5d6}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3a41a40c-27d5-43c7-a001-82b7d5984211}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3a41a40c-27d5-43c7-a001-82b7d5984211}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3d477c4c-e815-4b86-869a-a8249d2e0057}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{3d477c4c-e815-4b86-869a-a8249d2e0057}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{6764b800-609d-4171-868c-60f973d76134}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{6764b800-609d-4171-868c-60f973d76134}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{701695de-28e0-478a-9eaf-db2127f034bc}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{701695de-28e0-478a-9eaf-db2127f034bc}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{76c423a6-eeb7-4b22-b44e-43ef36764385}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{76c423a6-eeb7-4b22-b44e-43ef36764385}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{78ce81ae-f3b2-48ed-a550-aa515dca7683}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{78ce81ae-f3b2-48ed-a550-aa515dca7683}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7ccde4f4-200a-4abc-9424-1b6cbba35209}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7ccde4f4-200a-4abc-9424-1b6cbba35209}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7dad8258-2a48-46b9-b0eb-d48fac98654e}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7dad8258-2a48-46b9-b0eb-d48fac98654e}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7e1c3e8b-5783-4868-bbce-e65b5580bbb6}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7e1c3e8b-5783-4868-bbce-e65b5580bbb6}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7f3df14e-998f-42ac-a05c-a0df3f136ffb}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{7f3df14e-998f-42ac-a05c-a0df3f136ffb}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{8bdbdb9e-c6b9-4810-9ed3-89b85bbb9ccb}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{8bdbdb9e-c6b9-4810-9ed3-89b85bbb9ccb}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{9adf2111-0e14-459b-ad30-ffb2aca73c31}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{9adf2111-0e14-459b-ad30-ffb2aca73c31}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{9e661776-c446-465b-a3cc-4472c94406b4}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{9e661776-c446-465b-a3cc-4472c94406b4}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{b0ef004f-2d8c-4ce2-9fed-6a9fc8926575}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{b0ef004f-2d8c-4ce2-9fed-6a9fc8926575}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{bba89f7a-f7d0-4c45-9b3b-aa8197cb6fe8}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{bba89f7a-f7d0-4c45-9b3b-aa8197cb6fe8}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{c9e4f6e3-529f-4794-b9f9-3b12f3a695e6}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{c9e4f6e3-529f-4794-b9f9-3b12f3a695e6}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{dc39408b-25e0-4b0f-9bad-bf59662dba60}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{dc39408b-25e0-4b0f-9bad-bf59662dba60}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{e36e0bd9-8c3d-4af2-afe1-5061159050e0}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{e36e0bd9-8c3d-4af2-afe1-5061159050e0}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{ea429a24-5f64-4ecd-8b0c-6411eb63eed7}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{ea429a24-5f64-4ecd-8b0c-6411eb63eed7}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{f6d62b95-f2f1-4892-bc88-d687ab271965}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD Studio/Tavern/.cache/{f6d62b95-f2f1-4892-bc88-d687ab271965}.pdc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +135,7 @@
       <workItem from="1765789842981" duration="3000" />
       <workItem from="1765789849055" duration="5367000" />
       <workItem from="1768208513128" duration="7178000" />
+      <workItem from="1768816914428" duration="4477000" />
     </task>
     <servers />
   </component>

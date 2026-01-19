@@ -930,6 +930,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeTime: 2
+  releaseTime: 0.6
+  reliseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   spellPrefab: {fileID: 4380918445339287248, guid: bc636f3c0697c124c99a64c6f3eb537b, type: 3}
   spellSpawnPoint: {fileID: 477513549}
   spellShootForce: 50
@@ -3247,6 +3272,13 @@ MonoBehaviour:
       Data3: -288031562
       Data4: 587731880
     Path: event:/Spell
+  spellReleaseEvent:
+    Guid:
+      Data1: -179619374
+      Data2: 1235369693
+      Data3: 926833072
+      Data4: 1671394208
+    Path: event:/SpellReliseCancel
   spellImpactEvent:
     Guid:
       Data1: -1792590976

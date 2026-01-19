@@ -9,6 +9,7 @@ public class spell_cast_new : MonoBehaviour
     // --- KONFIGURACJA ZAKLĘCIA (WIZUALNA I FIZYCZNA) ---
     public float chargeTime = 0.5f;
     public float releaseTime = 0.2f;
+    public AnimationCurve reliseCurve;
     public GameObject spellPrefab;
     public Transform spellSpawnPoint;
     public float spellShootForce = 20f;
@@ -271,14 +272,24 @@ public class spell_cast_new : MonoBehaviour
       {
             if (currentVfxTransform != null)
                   currentVfxTransform.localScale = Vector3.one * scaleValue * t;
-            
-            if(currentSpellInstance != null) currentSpellInstance.transform.localScale = Vector3.one * scaleValue * t;
 
+            ParticleSystem[] particleSystems = currentVfxTransform.GetComponentsInChildren<ParticleSystem>();
+            
+            foreach (ParticleSystem currentParticleSystem in particleSystems)
+            {
+                  if (currentParticleSystem != null && currentParticleSystem != this.currentParticleSystem)
+                  {
+                        var main = currentParticleSystem.main;
+                        main.startLifetimeMultiplier = t;
+                        main.startSize = new ParticleSystem.MinMaxCurve(t * 0.4f, t * 0.6f);
+                  }
+            }
             if (currentParticleSystem != null)
             {
                   var main = currentParticleSystem.main;
                   main.startColor = Color.Lerp(chargeStartColor, chargeEndColor, t);
                   main.startLifetimeMultiplier = t;
+                  main.startSize = new ParticleSystem.MinMaxCurve(t * 0.4f, t * 0.6f);
             }
       }
     
@@ -329,12 +340,14 @@ public class spell_cast_new : MonoBehaviour
             while (t < 1)
             {
                   t += Time.deltaTime*(1/releaseTime);
-                  UpdateCancelingVfx(1-t);
+                  UpdateCancelingVfx(1-reliseCurve.Evaluate(t));
                   yield return null;
             }
+            yield return new WaitForSeconds(releaseTime);
             if (currentSpellInstance != null)
                   Destroy(currentSpellInstance);
 
+            
             currentSpellInstance = null;
             currentSpellRb = null;
             currentParticleSystem = null;
