@@ -134,7 +134,7 @@ public class AudioOcclusion : MonoBehaviour
     {
         RaycastHit hit;
         Physics.Linecast(Start, End, out hit, OcclusionLayer);
-
+        
         if (hit.collider)
         {
             lineCastHitCount++;
@@ -147,6 +147,7 @@ public class AudioOcclusion : MonoBehaviour
     private void SetParameter()
     {
         eventInstance.setParameterByName("Occlusion", lineCastHitCount / 11);
+        Debug.Log(lineCastHitCount / 11);
         //Debug.Log("SET");
     }
 }

@@ -17,6 +17,6 @@ public class Outside_foot_switch_new : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        audioSystem.OutsideSnap();
+        //audioSystem.OutsideSnap();
     }
 }
